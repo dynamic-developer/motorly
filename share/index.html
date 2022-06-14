@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+
+        window.onload = init();
+
+
+        function init() {
+
+            function get(n) {
+                var half = location.search.split('&' + n + '=')[1];
+                if (!half) half = location.search.split('?' + n + '=')[1];
+                return half !== undefined ? decodeURIComponent(half.split('&')[0]) : null;
+            }
+
+            var plate = get("plate");
+            var offer = get("offer");
+
+            var isDev = get("env") == 'dev' ? true : false;
+
+            var parametersProd = '&apn=co.nz.skadi.motorly&afl=https://play.google.com/store/apps/details?id%3Dco.nz.skadi.motorly&isi=1546978791&ibi=co.nz.skadi.motorly&efr=1';
+            var parametersDev = '&apn=co.nz.skadi.motorly&afl=https://play.google.com/store/apps/details?id%3Dco.nz.skadi.motorly&isi=1546978791&ibi=co.nz.skadi.motorly&efr=1';
+
+            var urlProd = plate != null ? 'https://motorly.page.link/?link=https://motorly.nz/motors/' + plate + '/?plate%3D' + plate + parametersProd : 'https://motorly.page.link/?link=https://motorly.nz/?offer%3D' + offer + parametersProd;
+            var urlDev = plate != null ? 'https://motorly.page.link/?link=https://motorly.nz/motors/' + plate + '/?plate%3D' + plate + parametersDev : 'https://motorly.page.link/?link=https://motorly.nz/?offer%3D' + offer + parametersDev;
+
+
+            window.location.href = isDev == true ? urlDev : urlProd;
+        }
+    </script>
+</body>
+
+</html>

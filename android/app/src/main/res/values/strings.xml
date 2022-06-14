@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Motorly</string>
+    <string name="facebook_app_id">272889017572591</string>
+    <string name="fb_login_protocol_scheme">fb272889017572591</string>
+    
+</resources>

@@ -1,0 +1,23 @@
+include: package:effective_dart/analysis_options.yaml
+linter:
+  rules:
+    avoid_empty_else: true
+    avoid_relative_lib_imports: true
+    avoid_slow_async_io: true
+    avoid_types_as_parameter_names: true
+    cancel_subscriptions: true
+    lines_longer_than_80_chars: false
+    close_sinks: false
+    control_flow_in_finally: true
+    hash_and_equals: true
+    iterable_contains_unrelated_type: true
+    list_remove_unrelated_type: true
+    avoid_positional_boolean_parameters: false
+    avoid_equals_and_hash_code_on_mutable_classes: false
+    literal_only_boolean_expression: true
+    no_adjacent_strings_in_list: true
+    public_member_api_docs: false
+    unawaited_futures: false
+    unnecessary_statements: true
+    unrelated_type_equality_checks: true
+    valid_regexps: true

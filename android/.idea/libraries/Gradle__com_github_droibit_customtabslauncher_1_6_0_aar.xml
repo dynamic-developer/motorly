@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.droibit:customtabslauncher:1.6.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/27f96aaf68ad7e7b47845d3234a62f16/transformed/jetified-customtabslauncher-1.6.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/27f96aaf68ad7e7b47845d3234a62f16/transformed/jetified-customtabslauncher-1.6.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/27f96aaf68ad7e7b47845d3234a62f16/transformed/jetified-customtabslauncher-1.6.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.droibit/customtabslauncher/1.6.0/d782a8e71f7f4b869b4abbced6647c021f82bdd6/customtabslauncher-1.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

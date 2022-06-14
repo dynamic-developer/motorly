@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Motorly</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>FirebaseDynamicLinksCustomDomains</key>
+  		<array>
+    		<string>https://motorly.nz/share.html</string>
+  		</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb272889017572591</string>
+				<string>com.googleusercontent.apps.692232910148-s4e5dns20ptf8sp5ajktlsicfnvr5ivu</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>FacebookAppID</key>
+	<string>272889017572591</string>
+	<key>FacebookDisplayName</key>
+	<string>Motorly</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>App requires access to share or play offers.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>App requires access to share offers with other devices.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>App requires access to enable bluetooth to share offers with other devices.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>App requires access to calendar to user set reminders and offers alerts.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>App requires access to cameras to plate recognize from camera.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>App requires access to contacts to user share car offers and app recomentation.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>App requires location access during usage to better sort offers on market and analytics.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>App requires location access during usage to better sort offers on market.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>App requires access to redefine UI on motion changes.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>App requires access to galery to plate recognize from image.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>App requires access to better accessibility.</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

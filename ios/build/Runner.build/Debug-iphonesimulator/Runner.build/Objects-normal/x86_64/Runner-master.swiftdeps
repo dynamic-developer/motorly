@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "7ba3031cdd63966312ee08c58fe03d25"
+build_time: [1632121268, 270112000]
+inputs:
+  "/Users/luis.pereira/Development/motorly/ios/Runner/AppDelegate.swift": [1621744062, 504127154]

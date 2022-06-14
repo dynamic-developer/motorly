@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "692232910148",
+    "firebase_url": "https://motorly-298009-default-rtdb.firebaseio.com",
+    "project_id": "motorly-298009",
+    "storage_bucket": "motorly-298009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692232910148:android:b838cafb4fe95a05159311",
+        "android_client_info": {
+          "package_name": "co.nz.skadi.motorly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692232910148-vmf55s61o6lb4941p7ujemlgcmsialq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk7fnyH_Yfil9yKXIl2FaQg7SfrAJ9nI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692232910148-vmf55s61o6lb4941p7ujemlgcmsialq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692232910148:android:89e40154f131683e159311",
+        "android_client_info": {
+          "package_name": "co.nz.skadi.motorly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692232910148-vmf55s61o6lb4941p7ujemlgcmsialq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk7fnyH_Yfil9yKXIl2FaQg7SfrAJ9nI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692232910148-vmf55s61o6lb4941p7ujemlgcmsialq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
